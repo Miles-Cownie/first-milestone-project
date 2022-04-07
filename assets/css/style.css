@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -7,8 +5,33 @@
 }
 
 body {
-    font-family: 'Merriweather', serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     background-color: #ffebcd;
     color: navy;
+}
+
+/* Header and title */
+
+header {
+    background-color: rgba(0, 0, 128, 0.8);
+    height: 125px;
+    letter-spacing: 2px;
+}
+
+.heading {
+    float: left;
+    width: 50%;
+    color: #ffebcd;
+}
+
+header h1 {
+    margin: 20px 0 0 75px;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+header h2 {
+    margin-left: 75px;
+    font-size: 2em;
 }
