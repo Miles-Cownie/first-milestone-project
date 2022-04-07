@@ -15,7 +15,7 @@ body {
 
 header {
     background-color: rgba(0, 0, 128, 0.8);
-    height: 125px;
+    height: 150px;
     letter-spacing: 4px;
 }
 
@@ -47,7 +47,7 @@ header h2 {
 
 #navigation li {
     float: left;
-    margin: 40px 45px 0 0;
+    margin: 45px 20px 0 0;
     padding: 5px;
     list-style: none;
 }
@@ -65,4 +65,34 @@ header h2 {
 
 .current {
     text-transform: uppercase;
+}
+
+/* portrait */
+
+.left-section {
+    float: left;
+    width: 25%;
+    height: 800px;
+    border-right: rgba(0, 0, 128, 0.8) solid 2px;
+    background-color: #ffe5bb;
+}
+
+.left-section h3 {
+    font-size: 150%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.left-section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border: solid 3px navy;
+}
+
+.left-section p {
+    font-size: 110%;
+    text-align: center;
+    margin-top: 10px;
 }
