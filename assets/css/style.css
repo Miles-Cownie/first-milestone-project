@@ -71,7 +71,7 @@ header h1 {
 
 .left-section {
     float: left;
-    width: 25%;
+    width: 30%;
     height: 800px;
     border-right: rgba(0, 0, 128, 0.8) solid 2px;
     background-color: #ffe5bb;
@@ -98,3 +98,12 @@ header h1 {
 }
 
 /*main section */
+
+.middle-section {
+    float: left;
+    width: 40%;
+}
+
+.middle-section h3 {
+    
+}
