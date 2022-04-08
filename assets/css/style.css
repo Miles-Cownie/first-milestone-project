@@ -117,3 +117,8 @@ header h1 {
 }
 
 /* Gallery section */
+
+.right-section {
+    float: left;
+    width: 30%;
+}
