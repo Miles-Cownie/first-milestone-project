@@ -71,7 +71,7 @@ header h1 {
 
 .left-section {
     float: left;
-    width: 29%;
+    width: 29.9%;
     height: 1200px;
     border-right: rgba(0, 0, 128, 0.8) solid 2px;
     background-color: #ffe5bb;
@@ -120,7 +120,7 @@ header h1 {
 
 .right-section {
     float: left;
-    width: 29%;
+    width: 29.8%;
     height: 1200px;
     border-left: solid 2px rgba(0, 0, 128, 0.8);
     background-color: #ffe5bb;
