@@ -150,3 +150,13 @@ header h1 {
     margin-top: 1100px;
     background-color: rgba(0, 0, 128, 0.9);
 }
+
+#foot-info {
+    color: #ffe5bb;
+    padding: 30px 0;
+}
+
+#foot-info li {
+    display: inline;
+    float: left;
+}
