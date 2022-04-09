@@ -159,4 +159,22 @@ header h1 {
 #foot-info li {
     display: inline;
     float: left;
+    margin-left: 25px;
+    list-style: none;
+}
+
+#foot-info p {
+    text-transform: uppercase;
+}
+
+#foot-info a {
+    padding: 0 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
+#foot-info a:hover {
+    background-color: #ffebcd;
+    color: navy;
+    border-radius: 5px;
 }
