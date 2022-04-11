@@ -183,7 +183,7 @@ header h1 {
 /* timeline */
 
 .container {
-    width: 80%;
+    width: 75%;
     margin: auto;
 }
 
@@ -199,6 +199,32 @@ header h1 {
 }
 
 /* form */
+
+.left-section h2 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 150%;
+}
+
+#find-out-more {
+    text-align: center;
+    border: solid 2px rgba(0, 0, 128, 0.9);
+    border-radius: 15px;
+    margin: 10px 0;
+    padding: 5px 0;
+    background-color: #ffe5bb;
+}
+
+#find-out-more input {
+    width: 80%;
+}
+
+#button {
+    background-color: rgba(0, 0, 128, 0.9);
+    color: #ffebcd;
+    border-radius: 15px;
+    margin-top: 7px;
+}
 
 /* for screens below 900px */
 @media screen and (max-width:900px) {
