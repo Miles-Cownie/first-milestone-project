@@ -70,14 +70,14 @@ header h1 {
 /*main page body*/
 
 .main-body {
-    display: table;
+    display: flex;
     width: 100%;
 }
 
 /* portrait */
 
 .left-section {
-    display: table-cell;
+    flex-basis: 30%;
     border-right: solid 2px rgba(0, 0, 128, 0.8);
     background-color: #ffe5bb;
 }
@@ -105,7 +105,7 @@ header h1 {
 /*main section */
 
 .middle-section {
-    display: table-cell;
+    flex-basis: 40%;
 }
 
 .middle-section h3 {
@@ -123,7 +123,7 @@ header h1 {
 /* Gallery section */
 
 .right-section {
-    display: table-cell;
+    flex-basis: 30%;
     border-left: solid 2px rgba(0, 0, 128, 0.8);
     background-color: #ffe5bb;
 }
@@ -180,62 +180,4 @@ header h1 {
     border-radius: 5px;
 }
 
-/* for screens below 800 px */
-@media screen and (max-width: 800px) {
-
-    header {
-        height: 125px;
-    }
-
-    .heading {
-        padding: 20px 0px;
-    }
-
-    #navigation {
-        font-size: 100%;
-    }
-
-    #navigation li {
-        padding: 25px 15px;
-    }
-
-    .left-section {
-        width: 29.9%;
-    }
-
-    .middle-section {
-        width: 39.6%;
-    }
-
-    .right-section {
-        width: 29.9%;
-    }
-
-    .footer {
-        height: 60px;
-    }
-
-    #foot-info {
-        padding: 25px 0;
-    }
-
-    #foot-info li {
-        margin-left: 5px;
-    }
-
-    #foot-info p {
-        padding: 2px 0;
-        font-size: 80%;
-    }
-
-    #foot-info a {
-        padding: 0 5px;
-        font-size: 80%;
-    }
-}
-
-/* for screens below 700 px */
-@media screen and {max-width: 700px;
-    
-
-}
+/* for screens below */
