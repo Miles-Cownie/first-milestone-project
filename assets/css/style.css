@@ -238,6 +238,13 @@ iframe {
     border: solid 5px rgba(0, 0, 128, 0.9);
 }
 
+.video-tag {
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 /* for screens below 900px */
 @media screen and (max-width:900px) {
     
