@@ -77,7 +77,7 @@ header h1 {
 /* portrait */
 
 .left-section {
-    flex-basis: 30%;
+    flex-basis: 25%;
     border-right: solid 2px rgba(0, 0, 128, 0.9);
     background-color: #ffe5bb;
 }
@@ -105,7 +105,7 @@ header h1 {
 /*main section */
 
 .middle-section {
-    flex-basis: 40%;
+    flex-basis: 50%;
 }
 
 .middle-section h3 {
@@ -123,7 +123,7 @@ header h1 {
 /* Gallery section */
 
 .right-section {
-    flex-basis: 30%;
+    flex-basis: 25%;
     border-left: solid 2px rgba(0, 0, 128, 0.9);
     background-color: #ffe5bb;
 }
@@ -178,6 +178,24 @@ header h1 {
     background-color: #ffebcd;
     color: navy;
     border-radius: 5px;
+}
+
+/* timeline */
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.container h3 {
+    text-align: center;
+}
+
+.content {
+    border: solid 2px rgba(0, 0, 128, 0.9);
+    border-radius: 15px;
+    background-color: #ffe5bb;
+    margin: 10px 0;
 }
 
 /* for screens below 900px */
