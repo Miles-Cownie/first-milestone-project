@@ -233,17 +233,28 @@ header h1 {
     margin: 5px 0;
 }
 
+.middle-section h2 {
+    margin: 15px 0;
+}
+
 iframe {
     margin: 15px 0;
     border: solid 5px rgba(0, 0, 128, 0.9);
 }
 
 .video-tag {
-    position: relative;
-    text-align: center;
     font-weight: bold;
     text-decoration: underline;
 }
+
+/* learning links */
+
+.right-section h2 {
+    text-align: center;
+    margin: 15px 0;
+}
+
+
 
 /* for screens below 900px */
 @media screen and (max-width:900px) {
