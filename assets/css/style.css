@@ -178,3 +178,57 @@ header h1 {
     color: navy;
     border-radius: 5px;
 }
+
+/* for screens below 800 px */
+@media screen and (max-width: 800px) {
+
+    header {
+        height: 125px;
+    }
+
+    .heading {
+        padding: 20px 0px;
+    }
+
+    #navigation {
+        font-size: 100%;
+    }
+
+    #navigation li {
+        padding: 25px 15px;
+    }
+
+    .left-section {
+        width: 29.9%;
+    }
+
+    .middle-section {
+        width: 39.6%;
+    }
+
+    .right-section {
+        width: 29.9%;
+    }
+
+    .footer {
+        height: 60px;
+    }
+
+    #foot-info {
+        padding: 25px 0;
+    }
+
+    #foot-info li {
+        margin-left: 5px;
+    }
+
+    #foot-info p {
+        padding: 2px 0;
+        font-size: 80%;
+    }
+
+    #foot-info a {
+        padding: 0 5px;
+        font-size: 80%;
+    }
+}
