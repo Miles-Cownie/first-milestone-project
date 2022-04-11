@@ -180,4 +180,36 @@ header h1 {
     border-radius: 5px;
 }
 
-/* for screens below */
+/* for screens below 900px */
+@media screen and (max-width:900px) {
+    
+    header {
+        height: 190px;
+    }
+
+    .heading {
+        width: 100%;
+        padding: 5px 0;
+        text-align: center;
+    }
+
+    #navigation {
+        float: none;
+    }
+
+    #navigation li {
+        float: none;
+        padding: 5px;
+        font-size: 90%;
+    }
+
+    #foot-info {
+        text-align: center;
+        padding: 18px 0;
+    }
+
+    #foot-info li {
+        float: none;
+        margin: 0;
+    }
+}
