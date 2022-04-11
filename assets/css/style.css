@@ -78,14 +78,14 @@ header h1 {
 
 .left-section {
     flex-basis: 30%;
-    border-right: solid 2px rgba(0, 0, 128, 0.8);
+    border-right: solid 2px rgba(0, 0, 128, 0.9);
     background-color: #ffe5bb;
 }
 
 .left-section h3 {
     font-size: 150%;
     text-align: center;
-    margin: 20px 0;
+    padding: 20px 0;
 }
 
 .left-section img {
@@ -124,7 +124,7 @@ header h1 {
 
 .right-section {
     flex-basis: 30%;
-    border-left: solid 2px rgba(0, 0, 128, 0.8);
+    border-left: solid 2px rgba(0, 0, 128, 0.9);
     background-color: #ffe5bb;
 }
 
@@ -211,5 +211,28 @@ header h1 {
     #foot-info li {
         float: none;
         margin: 0;
+    }
+}
+
+/* for screens below 700px wide */
+@media screen and (max-width:700px) {
+
+    .main-body {
+    display: block;
+    width: 100%;
+}
+
+    .left-section {
+        border-bottom: solid 2px rgba(0, 0, 128, 0.9);
+        border-right: none;
+    }
+
+    .right-section {
+        border-top: solid 2px rgba(0, 0, 128, 0.9);
+        border-left: none;
+    }
+
+    .footer {
+        font-size: 75%;
     }
 }
