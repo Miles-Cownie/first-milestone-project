@@ -251,6 +251,8 @@ header h1 {
 iframe {
     margin: 15px 0;
     border: solid 5px rgba(0, 0, 128, 0.9);
+    width: 100%;
+    height: 350px;
 }
 
 .video-tag {
@@ -292,8 +294,8 @@ iframe {
 
 .books img {
     margin: 15px auto;
-    height: 300px;
-    width: auto;
+    height: auto;
+    width: 60%;
 }
 
 /* for screens below 900px */
@@ -329,7 +331,7 @@ iframe {
         margin: 0;
     }
 
-    #video {
+    iframe {
         height: 250px;
     }
 
