@@ -290,6 +290,12 @@ iframe {
     border-radius: 15px;
 }
 
+.books img {
+    margin: 15px auto;
+    height: 300px;
+    width: auto;
+}
+
 /* for screens below 900px */
 @media screen and (max-width:900px) {
     
