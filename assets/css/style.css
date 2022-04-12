@@ -201,22 +201,30 @@ header h1 {
 /* form */
 
 .left-section h2 {
-    margin-top: 10px;
+    margin-top: 15px;
     text-align: center;
     font-size: 150%;
+    text-decoration: underline;
 }
 
 #find-out-more {
     text-align: center;
     border: solid 2px rgba(0, 0, 128, 0.9);
     border-radius: 15px;
-    margin: 10px 0;
+    margin: 25px 0;
     padding: 5px 0;
     background-color: #ffe5bb;
 }
 
+#find-out-more label {
+    font-size: 1.25em;
+    text-decoration: underline;
+}
+
 #find-out-more input {
     width: 80%;
+    padding: 5px 0;
+    margin: 10px 0;
 }
 
 #button {
@@ -224,6 +232,8 @@ header h1 {
     color: #ffebcd;
     border-radius: 15px;
     margin-top: 7px;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 /* video column */
@@ -231,6 +241,7 @@ header h1 {
 .container h2 {
     text-align: center;
     margin: 5px 0;
+    text-decoration: underline;
 }
 
 .middle-section h2 {
@@ -251,10 +262,33 @@ iframe {
 
 .right-section h2 {
     text-align: center;
-    margin: 15px 0;
+    margin: 15px 0 30px 0;
+    text-decoration: underline;
 }
 
+.links {
+    text-align: center;
+    list-style-type: none;
+    font-size: 1.25em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
 
+.links li {
+    margin: 10px 0;
+    padding: 5px 5px;
+}
+
+.links a {
+    color: navy;
+    text-decoration: none;
+    padding: 10px 5px;
+}
+
+.links a:hover {
+    border: solid 1px rgba(0, 0, 128, 0.9);
+    border-radius: 15px;
+}
 
 /* for screens below 900px */
 @media screen and (max-width:900px) {
