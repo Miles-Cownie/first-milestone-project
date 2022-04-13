@@ -6,14 +6,22 @@ This webiste is built to provide an introduction to the infamous pirate queen, Z
 
 - __Navigation Bar__
 
- - Featured across all pages of the site, the banner provides the title of the website and the navigation menu. 
- - The links in the navigation menu provide the user with easy movement between pages without needing to use browser navigation tools.
- - The links respond to user hovering over them and the current page is highlighted in the navigation bar to aid user interaction.
- - The navigation bar is responsive to screen size to allow ease of use on mobile and tablet screens.
+  - Featured across all pages of the site, the banner provides the title of the website and the navigation menu. 
+  - The links in the navigation menu provide the user with easy movement between pages without needing to use browser navigation tools.
+  - The links respond to user hovering over them and the current page is highlighted in the navigation bar to aid user interaction.
+  - The navigation bar is responsive to screen size to allow ease of use on mobile and tablet screens.
 
 - __Home Page__
- - The home page provides initial information for users.
- - Information is divided into sematic elements with a main sections and two asides.
- - A brief biography is found in the central column.
- - The aside columns contain images to provide context to main biography.
- - Images are credited and linked to original source.
+  - The home page provides initial information for users.
+  - Information is divided into sematic elements with a main sections and two asides.
+  - A brief biography is found in the central column.
+  - The aside columns contain images to provide context to main biography.
+  - Images are credited and linked to original source.
+
+- __Timeline__
+  - The timeline displays important events in Zheng Yi Sao's life.
+  - Format is clean and simple to follow, with clearly marked dates and descriptions.
+  - Side margins are empty to focus on timeline.
+
+- __Form__
+  - 
