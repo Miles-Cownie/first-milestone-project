@@ -54,7 +54,7 @@ header h1 {
 
 #navigation a {
     text-decoration: none;
-    color:#ffebcd;
+    color: #ffebcd;
 }
 
 #navigation a:hover {
@@ -301,7 +301,7 @@ iframe {
 
 /* for screens below 900px */
 @media screen and (max-width:900px) {
-    
+
     header {
         height: 190px;
     }
@@ -310,6 +310,10 @@ iframe {
         width: 100%;
         padding: 5px 0;
         text-align: center;
+    }
+
+    .heading h1 {
+        margin: 0;
     }
 
     #navigation {
@@ -338,13 +342,41 @@ iframe {
 
 }
 
+/* for screens below 850px */
+
+@media screen and (max-width:850px) {
+
+    .main-body {
+        display: inline-grid;
+        grid-template-columns: 2;
+    }
+
+    .left-section {
+        grid-row: 2;
+        border-top: solid 2px rgba(0, 0, 128, 0.9);
+        border-right: solid 1px rgba(0, 0, 128, 0.9);
+    }
+
+    .middle-section {
+        grid-row: 1;
+        grid-column: 1 / span 2;
+    }
+
+    .right-section {
+        grid-row: 2;
+        border-top: solid 2px rgba(0, 0, 128, 0.9);
+        border-left: solid 1px rgba(0, 0, 128, 0.9);
+    }
+
+}
+
 /* for screens below 700px wide */
 @media screen and (max-width:700px) {
 
     .main-body {
-    display: block;
-    width: 100%;
-}
+        display: block;
+        width: 100%;
+    }
 
     .left-section {
         border-bottom: solid 2px rgba(0, 0, 128, 0.9);
