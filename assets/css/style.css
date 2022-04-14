@@ -33,7 +33,7 @@ header h1 {
     text-transform: uppercase;
 }
 
-.heading p {
+header p {
     margin-left: 50px;
     font-size: 1.25em;
     text-transform: capitalize;
@@ -54,6 +54,7 @@ header h1 {
 
 #navigation a {
     text-decoration: none;
+    padding: 5px;
     color: #ffebcd;
 }
 
@@ -334,6 +335,10 @@ iframe {
     }
 
     .heading h1 {
+        margin: 0;
+    }
+
+    .heading p {
         margin: 0;
     }
 
