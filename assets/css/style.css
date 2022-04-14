@@ -187,6 +187,7 @@ header p {
 
 .container {
     width: 80%;
+    padding: 10px 0;
     margin: auto;
 }
 
@@ -320,6 +321,34 @@ iframe {
     height: auto;
     width: 60%;
 }
+
+/* Thank you page */
+
+.container p {
+    text-align: center;
+}
+
+#button-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+#button-text {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 128, 0.9);
+    font-size: 2em;
+}
+
+#button-text a {
+    padding: 10px 0;
+    color: #ffebcd;
+    font-weight: bold;
+    text-decoration: none;
+}
+ #button-text a:hover {
+     color: white;
+ }
 
 /* for screens below 900px */
 @media screen and (max-width:900px) {
