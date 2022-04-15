@@ -23,5 +23,22 @@ This webiste is built to provide an introduction to the infamous pirate queen, Z
   - Format is clean and simple to follow, with clearly marked dates and descriptions.
   - Side margins are empty to focus on timeline.
 
-- __Form__
-  - 
+- __Form and Contact info__
+  - The form encourages users to sign up to a newsletter.
+  - The form leads to a thank you page with navigation back to the main website.
+  - Currently the form collects no data.
+  - The contact info section encourages users to contact for any questions and provides a (dummy) email address as point of contact.
+
+- __Videos__
+  - The videos are embedded into the page for users to watch.
+  - Channels that own the video are highlighted on the page.
+
+- __Find out more section__
+  - The find out more section is divided into two parts, website links and book recommendations.
+  - Links provided in the section lead to the corresponding site in a new window.
+
+- __Footer__
+  - The footer provides links to (dummy) social media for users to interact with.
+
+## Desired Features
+
