@@ -2,6 +2,18 @@
 
 This webiste is built to provide an introduction to the infamous pirate queen, Zheng Yi Sao. It is targeting amateur history enthusiasts and aims to provide a jumping off point to explore the life and exploits of one of the most successful pirates of all time.
 
+![Zheng Yi Sao Responsive design](assets/readme-images/responsive-webpage.png)
+
+# Contents
+
+* [**User Experience**](<#user-experience>)
+  * [Wireframes](<#wireframes>)
+
+
+# User Experience
+
+## Wireframes
+
 ## Existing Features
 
 - __Navigation Bar__
@@ -42,5 +54,6 @@ This webiste is built to provide an introduction to the infamous pirate queen, Z
 
 ## Desired Features
 
-- __
+- An interactive timeline with images displayed when hovering over dates
+- Fully functuional form with newsletter delivered to users.
 
