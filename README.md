@@ -13,6 +13,9 @@ This webiste is built to provide an introduction to the infamous pirate queen, Z
   * [Colour Scheme](<#colour-scheme>)
 
 * [**Existing Features**](<#existing-features>)
+  * [Navigation Bar](<#navigation-bar>)
+  * [Home Page](<#home-page>)
+  *
 
 # User Experience
 
