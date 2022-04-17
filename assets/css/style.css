@@ -256,7 +256,7 @@ header p {
     padding: 10px;
 }
 
-#email {
+#email-address {
     font-weight: bold;
 }
 
@@ -393,7 +393,7 @@ iframe {
 
     .main-body {
         display: inline-grid;
-        grid-template-columns: 2;
+        grid-template-columns: 50%;
     }
 
     .left-section {
