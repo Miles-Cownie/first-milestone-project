@@ -309,7 +309,7 @@ This site was deployed using the Github Pages platform. To deploy a site with Pa
 [Back to top](<#contents>)
 
 # Acknowledgements
-The site was completed as Portfolio Project 1 for the Diploma in Software Development (E-commerce Applications) with the [Code Institute](https://codeinstitute.net). I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), the Slack community, and all at the Code Institute for their help and support.
+The site was completed as Portfolio Project 1 for the Diploma in Software Development (E-commerce Applications) with the [Code Institute](https://codeinstitute.net). I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), the Slack community, and all at the Code Institute for their help and support. Thank you to my friends and family who helped me test the site.
 
 Miles Cownie 2022.
 
