@@ -4,6 +4,8 @@ This webiste is built to provide an introduction to the infamous pirate queen, Z
 
 ![Zheng Yi Sao Responsive design](assets/readme-images/responsive-webpage.png)
 
+[Deployed Site](https://miles-cownie.github.io/first-milestone-project/)
+
 # Contents
 
 * [**User Experience**](<#user-experience>)
@@ -24,6 +26,8 @@ This webiste is built to provide an introduction to the infamous pirate queen, Z
   * [Footer](<#footer>)
 
 * [**Desired Features**](<#desired-features>)
+
+* [**Technologies Used**](<#technologies-used>)
 
 * [**Testing**](<#testing>)
   * [Code Validation](<#code-validation>)
@@ -130,10 +134,14 @@ The website consists of four pages. Three of the pages (Home, Timeline, and Find
   - The find out more section is divided into two parts, website links and book recommendations.
   - Links provided in the section lead to the corresponding site in a new window.
 
+  ![Find out more](assets/readme-images/sign-up.png)
+
 [Back to top](<#contents>)
 
 ## Footer
   - The footer provides links to (dummy) social media for users to interact with.
+
+  ![Footer](assets/readme-images/footer.png)
 
 [Back to top](<#contents>)
 
@@ -146,11 +154,11 @@ The website consists of four pages. Three of the pages (Home, Timeline, and Find
 
 # Technologies Used
 
-* [HTML5](https://html.com/html5/)
-* [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
-* [Balsamiq](https://balsamiq.com/wireframes/)
-* [Github](https://github.com)
-* [Gitpod](https://www.gitpod.io)
+* [HTML5](https://html.com/html5/) - Provides content structure to the site.
+* [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - Adds style and responsive design to the site.
+* [Balsamiq](https://balsamiq.com/wireframes/) - Design and build wireframes for the site.
+* [Github](https://github.com) - Acts as a repository for the site's code.
+* [Gitpod](https://www.gitpod.io) - Builds and edits the code for the site.
 
 [Back to top](<#contents>)
 
@@ -185,7 +193,7 @@ The CSS validator results are below:
 
 ## Responsive Design Check
 
-* The responsive design test was carried out successfully on all pages using [Responsive Design Checker](https://responsivedesignchecker.com)
+* The responsive design test was carried out successfully on all pages using [Responsive Design Checker](https://responsivedesignchecker.com). The responsive design rules acted correctly as designed across the below screen sizes. Content moved to the intended positions as expected and navigation links worked as intended.
 
   * Display >1200px = Pass
   * Display <1200px = Pass
@@ -201,19 +209,24 @@ The CSS validator results are below:
 ## Browser Compatibility
 
 Zheng Yi Sao - Pirate Queen was tested on the following browsers with no issues to the user.
-Opera, Google Chrome, Mozilla Firefox, and Microsoft Edge. Apprearance and responsiveness were consistent accross the browsers and different screen sizes.
+Opera, Google Chrome, Mozilla Firefox, and Microsoft Edge. Apprearance, responsiveness, and functionality were consistent accross the browsers and different screen sizes.
 
 [Back to top](<#contents>)
 
 ## Known Bugs
 * ### Resolved
 
-  * During Validation erros on the Find out more page due to erronious code in the embedded youtube links, these were removed. 
+  * Header text and nav bar moved from intended position at laptop screens below 1440px, changed font size and letter spacing to fix.
+  * Column edges exposed using display:block style. Changed to Flexbox style to resolve.
+  * Extra divs during initial design cause styling to not work. Removed surplus divs to fix.
+  * Header margin failed to change during responsive tests, added additional rule to correct.
+  * Asides were deleted from thank you page and caused page structure to move from intended position. Asides were restored to fix issue.
+  * During Validation errors on the Find out more page due to erronious code in the embedded youtube links, these were removed. 
   * Typo with incorrect start and end tags for one of the headings, this was corrected.
 
 * ### Unresolved
 
-  * On repsonsive design for tablet size screens on the timeline and thank you page. The aside columns are not fully hidden above the footer. Time limitations restrain correction.
+  * On responsive design for tablet size screens on the timeline and thank you page. The aside columns are not fully hidden above the footer. Time limitations restrain correction.
 
 [Back to top](<#contents>)
 
@@ -226,6 +239,7 @@ Zheng Yi Sao - Pirate Queen was tested using the [Lighthouse](https://developers
 * Seo - Search engine optimisation. Does the site run well with search engine results?
 
 As an example, the results for the Home Page are as follows:
+
 ![Lighthouse home results](assets/readme-images/lighthouse.png)
 
 [Back to top](<#contents>)
@@ -246,6 +260,8 @@ This site was deployed using the Github Pages platform. To deploy a site with Pa
   1. Log in to **GitHub** and locate the [repository](https://github.com/Miles-Cownie/first-milestone-project)
   2. Select the **fork** option in the top right hand corner of the page to create a copy of the repository.
 
+  ![Fork button](assets/readme-images/fork.png)
+
 ### **To create a local clone**
 
   1. Select the **code** tab from the repository's navigation bar.
@@ -255,13 +271,14 @@ This site was deployed using the Github Pages platform. To deploy a site with Pa
   5. Type **git clone**, and then paste the URL copied from GitHub.
   6. Confirm the choice and the local clone will be created.
 
+  ![Clone Action](assets/readme-images/clone.png)
+
   [Back to top](<#contents>)
 
 # Credits
 
 ### Content
 
-* The font comes from [Google Fonts](https://fonts.google.com/).
 * The icons come from [Font Awesome](https://fontawesome.com/).
 * [Balsamiq](https://balsamiq.com/wireframes/) was used to create the wireframes.
 * The thank you page inspiration and hmtl code guide comes from [rachel_rock_5P_lead](https://rockymiss.github.io/kitchennippers/).
@@ -274,10 +291,20 @@ This site was deployed using the Github Pages platform. To deploy a site with Pa
 
 ### Media
 
-* The portrait comes from [Ancient Origins](https://www.ancient-origins.net)
-* The gallery images come from [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page)
-* The embedded videos come from [Youtube](https://youtube.com)
-* The Book images and links come from [Book Depository](https://www.bookdepository.com) and [Amazon](https://www.amazon.co.uk).
+* The portrait comes from [Ancient Origins](https://www.ancient-origins.net/sites/default/files/Portrait-of-Ching-Shih.jpg)
+* The gallery images come from [Wikimedia Commons] at these links:
+  * [Zheng Yi Sao](https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/ChingShihN01.png/640px-ChingShihN01.png)
+  * [Pirates of the South China Sea](https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Piracy_of_the_South_China_Sea.JPG/640px-Piracy_of_the_South_China_Sea.JPG)
+  * [Portugeuse Battling Pirates](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Portuguese_Navy_Fighting_Pirates_in_the_Pearl_River_Delta.jpg/640px-Portuguese_Navy_Fighting_Pirates_in_the_Pearl_River_Delta.jpg)
+* The embedded videos come from the content creators below:
+  * [Extra Credits](https://www.youtube.com/watch?v=-p2lhxUqMMQ)
+  * [Biographics](https://www.youtube.com/watch?v=acojc6aZjgE)
+  * [Teacup Media](https://www.youtube.com/watch?v=ZWMJdvYdHHU&t=1s)
+* The Book images and links come from the sellers below:
+  * [Pirates: Fact and Fiction](https://www.bookdepository.com/Pirates-David-Cordingly/9781906367770?utm_content=Pirates&utm_source=Affiliate_Window&utm_medium=Affiliate_Marketing&utm_campaign=705885&utm_term=WorldHistoryEncyclopedia&awc=5478_1649757800_80b4ec58fac7b70cb12ed97b52dfb0f1)
+  * [Under the Black Flag](https://www.bookdepository.com/Under-Black-Flag-David-Cordingly/9780812977226?utm_content=Under-the-Black-Flag&utm_source=Affiliate_Window&utm_medium=Affiliate_Marketing&utm_campaign=705885&utm_term=WorldHistoryEncyclopedia&awc=5478_1649757809_e28d0c78b0dcbccd8b889b4df17b0087)
+  * [The Age of Trade](https://www.bookdepository.com/Age-Trade-Arturo-Giraldez/9780742556638?utm_content=The-Age-of-Trade&utm_source=Affiliate_Window&utm_medium=Affiliate_Marketing&utm_campaign=705885&utm_term=WorldHistoryEncyclopedia&awc=5478_1649757812_dcb8b22828221d72c4da1ec6aed91878)
+  * [Pirates!: Brigands and Buccaneers](https://www.amazon.co.uk/dp/0816027617?psc=1&th=1&linkCode=gs2&tag=anciehistoenc-21)
 
 [Back to top](<#contents>)
 
